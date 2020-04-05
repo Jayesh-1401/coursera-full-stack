@@ -1,0 +1,70 @@
+/******My stylesheet******/
+
+* {
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+}
+h1 {
+  font-size: 175%;
+}
+h2 {
+  margin-top: 10px;
+}
+#brand {
+  padding-top: 6px;
+}
+#brand-head {
+  color: black;
+  margin-top: 0px;
+}
+#nav-list a {
+  text-align: center;
+  color: black;
+}
+.sec {
+  color: black;
+  background-color: #999999;
+  padding: 20px;
+  margin: 20px;
+}
+#Chicken {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#Beef {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#Sushi {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#header-nav {
+  background-color: #999999;
+  border-color: black;
+  border-radius: 0;
+  border-width: 2px;
+}
+.navbar-default .navbar-toggle {
+  border-color: black;
+  border-width: 1px; 
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: black;
+    border-width: 1px;
+    /*background-color: white;*/
+}
+.navbar-collapse {
+    border-top-width: 2px;
+    border-top-color: black;
+}
+.navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #DCDCDC;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #999999;
+    border-color: white;
+}
